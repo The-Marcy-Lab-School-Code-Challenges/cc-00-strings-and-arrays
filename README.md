@@ -10,16 +10,16 @@
 
 ## Code Problems
 
-1. Declare a function named `reverseString` that takes in a string argument and returns the reversed version of the string, without using any `.reverse()` JavaScript methods. **Hint:** How can you use a loop iterate through a string backwards?
-```
-reverseString("hello")  //"olleh"
-reverseString("oo")     //"oo"
-reverseString("")       //""
+1. Declare a function called `stripUpperCase` that takes in a string argument and returns a new string with all uppercase letters removed.
+```javascript
+stripUpperCase('Hello!'); // 'ello!'
+stripUpperCase('SevenEleven'); // 'evenleven'
+stripUpperCase("Don't play with Me!"); // 'ont play with e!'
 ```
 
-Bonus: Declare a function named `reverseUpperCaseString` that takes in a string argument and returns the reversed version of the string with all letter uppercased, without using any `.reverse()` JavaScript methods.
-```
-reverseUpperCaseString("hello") //"OLLEH"
-reverseUpperCaseString("oo")    //"OO"
-reverseUpperCaseString("")      //""
+2. Declare a function named `findLongestWord`, that takes an array of strings as an argument, and returns the longest string in the array. If there is more than one longest string, the function should return the **first** longest string that appears in the array. You must solve this without using any array methods. 
+```javascript
+findLongestWord(["The","quick","brown", "fox", "jumped", "over", "the", "lazy", "dog"]) //returns "jumped"
+
+findLongestWord(["jazzy", "jumpy", "quaky"]) //returns "jazzy"
 ```
