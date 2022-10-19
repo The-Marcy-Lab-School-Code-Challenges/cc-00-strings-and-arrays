@@ -1,4 +1,4 @@
-# Code Challenge: Strings
+# Code Challenge: Strings and Arrays
 
 ## Instructions
 
