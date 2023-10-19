@@ -10,11 +10,11 @@
 
 ## Code Problems
 
-1. Declare a function called `stripUpperCase` that takes in a string argument and returns a new string with all uppercase letters removed.
+1. Declare a function called `stripUpperCase` that takes in a string argument consistenting of only alphabet characters and returns a new string with all uppercase letters removed.
 ```javascript
-stripUpperCase('Hello!'); // 'ello!'
+stripUpperCase('Hello'); // 'ello'
 stripUpperCase('SevenEleven'); // 'evenleven'
-stripUpperCase("Don't play with Me!"); // 'ont play with e!'
+stripUpperCase("code challenge is fun"); // 'code challenge is fun'
 ```
 
 2. Declare a function named `findLongestWord`, that takes an array of strings as an argument, and returns the longest string in the array. If there is more than one longest string, the function should return the **first** longest string that appears in the array. You must solve this without using any array methods. 
