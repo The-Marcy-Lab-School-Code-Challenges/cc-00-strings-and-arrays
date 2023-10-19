@@ -23,3 +23,19 @@ findLongestWord(["The","quick","brown", "fox", "jumped", "over", "the", "lazy", 
 
 findLongestWord(["jazzy", "jumpy", "quaky"]) //returns "jazzy"
 ```
+
+3. Declare a function named `replaceWithYerr` that accepts three arguments: an Array, a start index, and the number of elements to replace with the string 'yerr'. The function should return a **new** Array, with the same elements as the original Array, except elements at the starting index, are replaced with the string 'yerr'. The number of elements replaced is determined by the third argument. Implement this function without using `.splice()`.
+```js
+const months = ['Jan', 'February', 'March', 'April', 'May', 'June'];
+
+replaceWithYerr(months, 1, 3) //['Jan', 'yerr', 'yerr, 'yerr', 'May', 'June']
+```
+
+**Bonus**: Refactor your function so that the second and third arguments are *optional*. If the third argument is missing, the function should return a new array that replaces all elements from the starting index to the end of the array. If only an one argument is passed, it should return a new array argument, with all elements replaced that is the same length as the input array.
+```js
+const months = ['Jan', 'February', 'March', 'April', 'May', 'June'];
+
+replaceWithYerr(months, 1) //['Jan', 'yerr', 'yerr, 'yerr', 'yerr', 'yerr']
+replaceWithYerr(months) //['yerr', 'yerr', 'yerr, 'yerr', 'yerr', 'yerr']
+```
+
