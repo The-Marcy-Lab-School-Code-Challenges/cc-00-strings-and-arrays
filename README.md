@@ -10,7 +10,7 @@
 
 ## Code Problems
 
-1. Declare a function called `stripUpperCase` that takes in a string argument consistenting of only alphabet characters and returns a new string with all uppercase letters removed.
+1. Declare a function called `stripUpperCase` that takes in a string argument consistenting of only alphabet characters and returns a new string with all uppercase letters removed. Note: You should not alter the input str, this function should return a new string. 
     
     ```jsx
     stripUpperCase('Hello'); // 'ello'
